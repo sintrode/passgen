@@ -1,7 +1,7 @@
 ::----------------------------------------------------------------------------------------
 :: Generates a random password based on provided parameters
 ::
-:: USAGE: passgen.bat [-?][-s <string length>][-a <number between 1 and 4>][-c]
+:: USAGE: passgen.bat [-?][-s <string length>][-a <number between 1 and 4>][-c][--gui]
 ::
 :: Options:
 ::     -?    Displays usage

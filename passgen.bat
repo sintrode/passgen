@@ -190,7 +190,7 @@ if !alphabet_length! gtr 0 (
 	for /L %%A in (1,1,!pass_length!) do (
 		set /a alphabet_index=!random!%%!alphabet_length!
 		for /f %%B in ("!alphabet_index!") do (
-			set "password=!password!!alphabet:~%%B,1!
+			set "password=!password!!alphabet:~%%B,1!"
 		)
 	)
 )

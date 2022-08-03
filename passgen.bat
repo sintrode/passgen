@@ -261,7 +261,7 @@ goto :eof
 ::------------------------------------------------------------------------------
 :: Validates if user input is numeric
 ::
-:: Arguments: raw_input  - the input provided by the usergit
+:: Arguments: raw_input  - the input provided by the user
 :: Returns:   None
 ::------------------------------------------------------------------------------
 :validate_number

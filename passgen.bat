@@ -1,9 +1,14 @@
 ::----------------------------------------------------------------------------------------
-:: Generates a random password based on provided parameters
+:: NAME
+::     passgen.bat - A batch password generator
 ::
-:: USAGE: passgen.bat [-?][-s <string length>][-a <number between 1 and 4>][-c][--gui]
+:: DESCRIPTION
+::     Generates a random password based on provided parameters
 ::
-:: Options:
+:: USAGE
+::     passgen.bat [-?][-s <string length>][-a <number between 1 and 4>][-c][--gui]
+::
+:: ARGUMENTS
 ::     -?    Displays usage
 ::     -s    Specify length of password. Default value is 8.
 ::     -a    Specify the alphabet complexity. Default value is 3.
@@ -14,11 +19,9 @@
 ::     -c    Copy the password to the clipboard. Disabled by default.
 ::     --gui Displays the GUI for further customization
 ::
-:: VERSION HISTORY
-:: ===============
-:: 0.1 (2016-11-20) - Initial Version 
+:: AUTHOR
+::     Sintrode
 ::----------------------------------------------------------------------------------------
-
 @echo off
 setlocal enabledelayedexpansion
 set "password="
